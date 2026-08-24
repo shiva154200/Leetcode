@@ -1,0 +1,15 @@
+
+class Solution {
+public:
+    int evenNumberBitwiseORs(vector<int>& nums) 
+    {
+        int r=0;
+        int n=nums.size();
+        for(int i=0;i<n;i++){
+           if(nums[i]%2==0) r=r|nums[i];
+        }
+
+        return r;
+        
+    }
+};
