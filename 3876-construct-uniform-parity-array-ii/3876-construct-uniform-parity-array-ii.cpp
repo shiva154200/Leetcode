@@ -7,7 +7,7 @@ public:
         bool allevn = true;
         int minodd = INT_MAX;
         int minevn = INT_MAX - 1;
-        for (int i = n - 1; i >= 0; i--) {
+        for (int i = 0; i < n; i++) {
             if (nums1[i] % 2) {
                 if (minodd > nums1[i]) {
                     minodd = nums1[i];
