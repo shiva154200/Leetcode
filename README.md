@@ -24,4 +24,12 @@
 |  |
 | ------- |
 | [3903-smallest-stable-index-i](https://github.com/shiva154200/Leetcode/tree/master/3903-smallest-stable-index-i) |
+## String
+|  |
+| ------- |
+| [0071-simplify-path](https://github.com/shiva154200/Leetcode/tree/master/0071-simplify-path) |
+## Stack
+|  |
+| ------- |
+| [0071-simplify-path](https://github.com/shiva154200/Leetcode/tree/master/0071-simplify-path) |
 <!---LeetCode Topics End-->
