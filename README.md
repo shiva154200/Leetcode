@@ -5,9 +5,18 @@
 ## Array
 |  |
 | ------- |
+| [2826-sorting-three-groups](https://github.com/shiva154200/Leetcode/tree/master/2826-sorting-three-groups) |
 | [3904-smallest-stable-index-ii](https://github.com/shiva154200/Leetcode/tree/master/3904-smallest-stable-index-ii) |
 ## Prefix Sum
 |  |
 | ------- |
 | [3904-smallest-stable-index-ii](https://github.com/shiva154200/Leetcode/tree/master/3904-smallest-stable-index-ii) |
+## Binary Search
+|  |
+| ------- |
+| [2826-sorting-three-groups](https://github.com/shiva154200/Leetcode/tree/master/2826-sorting-three-groups) |
+## Dynamic Programming
+|  |
+| ------- |
+| [2826-sorting-three-groups](https://github.com/shiva154200/Leetcode/tree/master/2826-sorting-three-groups) |
 <!---LeetCode Topics End-->
