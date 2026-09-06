@@ -10,9 +10,13 @@ on:
 permissions:
   contents: write
 
+# Prevent two preservation jobs from pushing to main at the same time.
+concurrency:
+  group: preserve-other-methods-main
+  cancel-in-progress: false
+
 jobs:
   preserve:
-    # Do not run for the workflow's own preservation commit.
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
@@ -20,70 +24,104 @@ jobs:
       - name: Checkout full repository history
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Preserve previous C++ solutions
         shell: bash
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
         run: |
           set -euo pipefail
 
-          echo "Commit: $GITHUB_SHA"
-          echo "Message: $(git log -1 --pretty=%s)"
+          echo "Push: $BEFORE_SHA -> $AFTER_SHA"
 
-          # Get files changed by THIS push, including modifications and renames.
-          mapfile -t changed_files < <(git diff-tree --no-commit-id --name-only -r --diff-filter=AMR HEAD -- '*.cpp')
-
-          if [ "${#changed_files[@]}" -eq 0 ]; then
-            echo "No added/modified/renamed C++ solution files. Nothing to preserve."
+          if [[ "$BEFORE_SHA" == "0000000000000000000000000000000000000000" ]]; then
+            echo "Initial push. Nothing to preserve."
             exit 0
           fi
 
-          preserved=false
+          # IMPORTANT:
+          # Read the old solutions from the exact push event BEFORE syncing
+          # with main. Another commit may have reached main while this job
+          # was running.
+          mapfile -t changed_files < <(
+            git diff --name-only "$BEFORE_SHA" "$AFTER_SHA" -- '*.cpp'
+          )
+
+          if [[ "${#changed_files[@]}" -eq 0 ]]; then
+            echo "No C++ files changed in this push."
+            exit 0
+          fi
+
+          archive_root="$RUNNER_TEMP/previous-solutions"
+          rm -rf "$archive_root"
+          mkdir -p "$archive_root"
+
+          archived_count=0
 
           for file in "${changed_files[@]}"; do
-            [ -z "$file" ] && continue
+            [[ -z "$file" ]] && continue
 
-            # Skip anything inside other-methods.
+            # Never archive files that are already archived methods.
             case "$file" in
               */other-methods/*) continue ;;
             esac
 
-            # A file is eligible only if it existed in the parent commit.
-            if ! git cat-file -e "HEAD^:$file" 2>/dev/null; then
-              echo "New solution: $file — nothing to archive."
+            # The file must have existed BEFORE this push.
+            if ! git cat-file -e "$BEFORE_SHA:$file" 2>/dev/null; then
+              echo "New solution: $file — skipping."
               continue
             fi
 
-            directory=$(dirname "$file")
+            # Save the exact previous solution from the event's parent.
+            safe_name="$(printf '%s' "$file" | tr '/' '__')"
+            git show "$BEFORE_SHA:$file" > "$archive_root/$safe_name"
+            printf '%s\t%s\n' "$file" "$safe_name" >> "$archive_root/manifest"
+
+            echo "Captured previous solution: $file"
+            archived_count=$((archived_count + 1))
+          done
+
+          if [[ "$archived_count" -eq 0 ]]; then
+            echo "No existing C++ solutions need preservation."
+            exit 0
+          fi
+
+          # A later push may have arrived while this job was running.
+          # Bring the workspace up to the latest main before creating the
+          # preservation commit, while keeping the old solutions captured above.
+          git fetch origin main --prune
+          git reset --hard origin/main
+
+          while IFS=$'\t' read -r file safe_name; do
+            [[ -z "$file" ]] && continue
+
+            directory="$(dirname "$file")"
             methods_dir="$directory/other-methods"
             mkdir -p "$methods_dir"
 
-            # Find the next free method number.
+            # Never overwrite an existing archived method.
             next_number=1
-            while [ -e "$methods_dir/method-$next_number.cpp" ]; do
+            while [[ -e "$methods_dir/method-$next_number.cpp" ]]; do
               next_number=$((next_number + 1))
             done
 
-            # IMPORTANT: archive the solution BEFORE this LeetHub update.
-            git show "HEAD^:$file" > "$methods_dir/method-$next_number.cpp"
-
+            cp "$archive_root/$safe_name" "$methods_dir/method-$next_number.cpp"
             echo "Archived: $file -> $methods_dir/method-$next_number.cpp"
-            preserved=true
-          done
+          done < "$archive_root/manifest"
 
-          if [ "$preserved" = true ]; then
-            git config user.name 'github-actions[bot]'
-            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
-            git add -- '**/other-methods/*.cpp'
+          git add -- '**/other-methods/*.cpp'
 
-            if git diff --cached --quiet; then
-              echo "Nothing new to commit."
-              exit 0
-            fi
-
-            git commit -m 'Preserve previous LeetCode methods'
-            git push
-          else
-            echo "No previous solutions needed preservation."
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+            exit 0
           fi
+
+          git commit -m 'Preserve previous LeetCode methods'
+
+          # Push the preservation commit on top of the latest main.
+          git push origin HEAD:main
