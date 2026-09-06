@@ -5,6 +5,7 @@
 ## Array
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/shiva154200/Leetcode/tree/master/0037-sudoku-solver) |
 | [2826-sorting-three-groups](https://github.com/shiva154200/Leetcode/tree/master/2826-sorting-three-groups) |
 | [3904-smallest-stable-index-ii](https://github.com/shiva154200/Leetcode/tree/master/3904-smallest-stable-index-ii) |
 ## Prefix Sum
@@ -29,4 +30,24 @@
 |  |
 | ------- |
 | [0115-distinct-subsequences](https://github.com/shiva154200/Leetcode/tree/master/0115-distinct-subsequences) |
+## Hash Table
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/shiva154200/Leetcode/tree/master/0037-sudoku-solver) |
+## Backtracking
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/shiva154200/Leetcode/tree/master/0037-sudoku-solver) |
+## Matrix
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/shiva154200/Leetcode/tree/master/0037-sudoku-solver) |
+## Algorithm X
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/shiva154200/Leetcode/tree/master/0037-sudoku-solver) |
+## Dancing Links
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/shiva154200/Leetcode/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
