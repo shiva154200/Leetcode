@@ -18,10 +18,15 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/shiva154200/Leetcode/tree/master/0115-distinct-subsequences) |
 | [2826-sorting-three-groups](https://github.com/shiva154200/Leetcode/tree/master/2826-sorting-three-groups) |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/shiva154200/Leetcode/tree/master/2827-number-of-beautiful-integers-in-the-range) |
 ## Math
 |  |
 | ------- |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/shiva154200/Leetcode/tree/master/2827-number-of-beautiful-integers-in-the-range) |
+## String
+|  |
+| ------- |
+| [0115-distinct-subsequences](https://github.com/shiva154200/Leetcode/tree/master/0115-distinct-subsequences) |
 <!---LeetCode Topics End-->
