@@ -4,16 +4,20 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - '**/other-methods/**'
 
 permissions:
   contents: write
 
 jobs:
   preserve:
+    # Do not run for the workflow's own preservation commit.
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository history
+      - name: Checkout full repository history
         uses: actions/checkout@v4
         with:
           fetch-depth: 2
@@ -21,51 +25,65 @@ jobs:
       - name: Preserve previous C++ solutions
         shell: bash
         run: |
-          set -e
+          set -euo pipefail
 
-          # Only act when LeetHub actually changed a C++ solution file.
-          changed_files=$(git diff-tree --no-commit-id --name-only -r HEAD | grep -E '\.cpp$' || true)
+          echo "Commit: $GITHUB_SHA"
+          echo "Message: $(git log -1 --pretty=%s)"
 
-          if [ -z "$changed_files" ]; then
-            echo "No C++ solution changes found. Nothing to preserve."
+          # Get files changed by THIS push, including modifications and renames.
+          mapfile -t changed_files < <(git diff-tree --no-commit-id --name-only -r --diff-filter=AMR HEAD -- '*.cpp')
+
+          if [ "${#changed_files[@]}" -eq 0 ]; then
+            echo "No added/modified/renamed C++ solution files. Nothing to preserve."
             exit 0
           fi
 
           preserved=false
 
-          while IFS= read -r file; do
+          for file in "${changed_files[@]}"; do
             [ -z "$file" ] && continue
 
-            # A previous version exists only when this is an update,
-            # not the first time the problem was uploaded.
-            if git cat-file -e "HEAD^:$file" 2>/dev/null; then
-              directory=$(dirname "$file")
-              filename=$(basename "$file" .cpp)
-              methods_dir="$directory/other-methods"
+            # Skip anything inside other-methods.
+            case "$file" in
+              */other-methods/*) continue ;;
+            esac
 
-              mkdir -p "$methods_dir"
-
-              # Find the next method number without overwriting anything.
-              next_number=1
-              while [ -e "$methods_dir/method-$next_number.cpp" ]; do
-                next_number=$((next_number + 1))
-              done
-
-              # Get the solution that existed immediately before LeetHub's update.
-              git show "HEAD^:$file" > "$methods_dir/method-$next_number.cpp"
-
-              echo "Preserved previous solution: $methods_dir/method-$next_number.cpp"
-              preserved=true
+            # A file is eligible only if it existed in the parent commit.
+            if ! git cat-file -e "HEAD^:$file" 2>/dev/null; then
+              echo "New solution: $file — nothing to archive."
+              continue
             fi
-          done <<< "$changed_files"
+
+            directory=$(dirname "$file")
+            methods_dir="$directory/other-methods"
+            mkdir -p "$methods_dir"
+
+            # Find the next free method number.
+            next_number=1
+            while [ -e "$methods_dir/method-$next_number.cpp" ]; do
+              next_number=$((next_number + 1))
+            done
+
+            # IMPORTANT: archive the solution BEFORE this LeetHub update.
+            git show "HEAD^:$file" > "$methods_dir/method-$next_number.cpp"
+
+            echo "Archived: $file -> $methods_dir/method-$next_number.cpp"
+            preserved=true
+          done
 
           if [ "$preserved" = true ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
             git add -- '**/other-methods/*.cpp'
-            git commit -m "Preserve previous LeetCode methods" || true
+
+            if git diff --cached --quiet; then
+              echo "Nothing new to commit."
+              exit 0
+            fi
+
+            git commit -m 'Preserve previous LeetCode methods'
             git push
           else
-            echo "No existing C++ files were updated. Nothing to preserve."
+            echo "No previous solutions needed preservation."
           fi
