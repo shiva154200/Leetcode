@@ -1,0 +1,71 @@
+name: Preserve Other Methods
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  preserve:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Preserve previous C++ solutions
+        shell: bash
+        run: |
+          set -e
+
+          # Only act when LeetHub actually changed a C++ solution file.
+          changed_files=$(git diff-tree --no-commit-id --name-only -r HEAD | grep -E '\.cpp$' || true)
+
+          if [ -z "$changed_files" ]; then
+            echo "No C++ solution changes found. Nothing to preserve."
+            exit 0
+          fi
+
+          preserved=false
+
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+
+            # A previous version exists only when this is an update,
+            # not the first time the problem was uploaded.
+            if git cat-file -e "HEAD^:$file" 2>/dev/null; then
+              directory=$(dirname "$file")
+              filename=$(basename "$file" .cpp)
+              methods_dir="$directory/other-methods"
+
+              mkdir -p "$methods_dir"
+
+              # Find the next method number without overwriting anything.
+              next_number=1
+              while [ -e "$methods_dir/method-$next_number.cpp" ]; do
+                next_number=$((next_number + 1))
+              done
+
+              # Get the solution that existed immediately before LeetHub's update.
+              git show "HEAD^:$file" > "$methods_dir/method-$next_number.cpp"
+
+              echo "Preserved previous solution: $methods_dir/method-$next_number.cpp"
+              preserved=true
+            fi
+          done <<< "$changed_files"
+
+          if [ "$preserved" = true ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+            git add -- '**/other-methods/*.cpp'
+            git commit -m "Preserve previous LeetCode methods" || true
+            git push
+          else
+            echo "No existing C++ files were updated. Nothing to preserve."
+          fi
