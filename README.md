@@ -20,6 +20,7 @@
 |  |
 | ------- |
 | [0115-distinct-subsequences](https://github.com/shiva154200/Leetcode/tree/master/0115-distinct-subsequences) |
+| [0940-distinct-subsequences-ii](https://github.com/shiva154200/Leetcode/tree/master/0940-distinct-subsequences-ii) |
 | [2826-sorting-three-groups](https://github.com/shiva154200/Leetcode/tree/master/2826-sorting-three-groups) |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/shiva154200/Leetcode/tree/master/2827-number-of-beautiful-integers-in-the-range) |
 ## Math
@@ -30,6 +31,7 @@
 |  |
 | ------- |
 | [0115-distinct-subsequences](https://github.com/shiva154200/Leetcode/tree/master/0115-distinct-subsequences) |
+| [0940-distinct-subsequences-ii](https://github.com/shiva154200/Leetcode/tree/master/0940-distinct-subsequences-ii) |
 ## Hash Table
 |  |
 | ------- |
