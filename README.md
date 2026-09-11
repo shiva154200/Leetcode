@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/shiva154200/Leetcode/tree/master/0037-sudoku-solver) |
+| [1295-find-numbers-with-even-number-of-digits](https://github.com/shiva154200/Leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [2826-sorting-three-groups](https://github.com/shiva154200/Leetcode/tree/master/2826-sorting-three-groups) |
 | [3483-unique-3-digit-even-numbers](https://github.com/shiva154200/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3904-smallest-stable-index-ii](https://github.com/shiva154200/Leetcode/tree/master/3904-smallest-stable-index-ii) |
@@ -27,6 +28,7 @@
 ## Math
 |  |
 | ------- |
+| [1295-find-numbers-with-even-number-of-digits](https://github.com/shiva154200/Leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/shiva154200/Leetcode/tree/master/2827-number-of-beautiful-integers-in-the-range) |
 | [3870-count-commas-in-range](https://github.com/shiva154200/Leetcode/tree/master/3870-count-commas-in-range) |
 | [3871-count-commas-in-range-ii](https://github.com/shiva154200/Leetcode/tree/master/3871-count-commas-in-range-ii) |
