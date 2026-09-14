@@ -32,6 +32,7 @@
 ## Math
 |  |
 | ------- |
+| [0223-rectangle-area](https://github.com/shiva154200/Leetcode/tree/master/0223-rectangle-area) |
 | [0836-rectangle-overlap](https://github.com/shiva154200/Leetcode/tree/master/0836-rectangle-overlap) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/shiva154200/Leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/shiva154200/Leetcode/tree/master/2827-number-of-beautiful-integers-in-the-range) |
@@ -91,6 +92,7 @@
 ## Geometry
 |  |
 | ------- |
+| [0223-rectangle-area](https://github.com/shiva154200/Leetcode/tree/master/0223-rectangle-area) |
 | [0836-rectangle-overlap](https://github.com/shiva154200/Leetcode/tree/master/0836-rectangle-overlap) |
 ## Sorting
 |  |
