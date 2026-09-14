@@ -3,14 +3,11 @@ public:
     int computeArea(int ax1, int ay1, int ax2, int ay2, int bx1, int by1, int bx2, int by2) {
         int common=0;
         if(ax1<bx2&&ax2>bx1&&ay1<by2&&ay2>by1){
-            vector<int>x={ax1,bx1,ax2,bx2};
-            vector<int>y={ay1,by1,ay2,by2};
-            sort(x.begin(),x.end());
-            sort(y.begin(),y.end());
-
-            common=(x[2]-x[1])*(y[2]-y[1]);
-           
             
+            int l=min(bx2,ax2)-max(ax1,bx1);
+            int b=min(by2,ay2)-max(ay1,by1);
+
+            common=abs(l*b);
 
 
 
