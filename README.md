@@ -7,6 +7,7 @@
 | ------- |
 | [0037-sudoku-solver](https://github.com/shiva154200/Leetcode/tree/master/0037-sudoku-solver) |
 | [0289-game-of-life](https://github.com/shiva154200/Leetcode/tree/master/0289-game-of-life) |
+| [0835-image-overlap](https://github.com/shiva154200/Leetcode/tree/master/0835-image-overlap) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/shiva154200/Leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [2826-sorting-three-groups](https://github.com/shiva154200/Leetcode/tree/master/2826-sorting-three-groups) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/shiva154200/Leetcode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
@@ -57,6 +58,7 @@
 | ------- |
 | [0037-sudoku-solver](https://github.com/shiva154200/Leetcode/tree/master/0037-sudoku-solver) |
 | [0289-game-of-life](https://github.com/shiva154200/Leetcode/tree/master/0289-game-of-life) |
+| [0835-image-overlap](https://github.com/shiva154200/Leetcode/tree/master/0835-image-overlap) |
 ## Algorithm X
 |  |
 | ------- |
