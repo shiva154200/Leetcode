@@ -1,41 +1,36 @@
 class Solution {
 public:
-    int largestOverlap(vector<vector<int>>& img1, vector<vector<int>>& img2) {
+    int largestOverlap(vector<vector<int>>& img1,
+                       vector<vector<int>>& img2) {
 
-        vector<vector<int>> A;
+        vector<pair<int, int>> A, B;
+        int n = img1.size();
 
-        // Store coordinates of all 1s in img1
-        for (int i = 0; i < img1.size(); i++) {
-            for (int j = 0; j < img1[i].size(); j++) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+
                 if (img1[i][j])
                     A.push_back({i, j});
+
+                if (img2[i][j])
+                    B.push_back({i, j});
             }
         }
 
-        int r = img1.size();
-        int c = img1[0].size();
+        unordered_map<string, int> freq;
         int ans = 0;
 
-        // Try every possible shift
-        for (int x = -r; x <= r; x++) {
-            for (int y = -c; y <= c; y++) {
+        for (auto &a : A) {
+            for (auto &b : B) {
 
-                int overlap = 0;
+                int dx = b.first - a.first;
+                int dy = b.second - a.second;
 
-                for (auto &p : A) {
-                    int X = p[0] + x;
-                    int Y = p[1] + y;
+                string key = to_string(dx) + "," + to_string(dy);
 
-                    // Check if shifted position is inside img2
-                    if (0 <= X && X < r &&
-                        0 <= Y && Y < c) {
+                freq[key]++;
 
-                        if (img2[X][Y])
-                            overlap++;
-                    }
-                }
-
-                ans = max(ans, overlap);
+                ans = max(ans, freq[key]);
             }
         }
 
