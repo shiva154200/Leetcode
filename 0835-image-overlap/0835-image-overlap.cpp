@@ -1,39 +1,36 @@
 class Solution {
 public:
-    int largestOverlap(vector<vector<int>>& img1,
-                       vector<vector<int>>& img2) {
+    int largestOverlap(vector<vector<int>>& img1, vector<vector<int>>& img2) {
 
-        vector<pair<int, int>> A, B;
-        int n = img1.size();
+        vector<vector<int>> A;
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-
+        int ans = 0;
+        for (int i = 0; i < img1.size(); i++) {
+            for (int j = 0; j < img1[i].size(); j++) {
                 if (img1[i][j])
                     A.push_back({i, j});
-
-                if (img2[i][j])
-                    B.push_back({i, j});
             }
         }
 
-        unordered_map<string, int> freq;
-        int ans = 0;
+        int r = img1.size();
+        int c = img1[0].size();
 
-        for (auto &a : A) {
-            for (auto &b : B) {
+        for (int x = -c; x <= c; x++) {
+            for (int y = -r; y <= r; y++) {
+                int z = 0;
 
-                int dx = b.first - a.first;
-                int dy = b.second - a.second;
+                for (auto& p : A) {
+                    int X = p[0] + x;
+                    int Y = p[1] + y;
+                    if (0 <= X && X < r && 0 <= Y && Y < c) {
+                        if (img2[X][Y])
+                            z++;
+                    }
+                }
 
-                string key = to_string(dx) + "," + to_string(dy);
-
-                freq[key]++;
-
-                ans = max(ans, freq[key]);
+                ans = max(ans, z);
             }
         }
-
         return ans;
     }
 };
