@@ -1,22 +1,15 @@
 class Solution {
 public:
     int largestOverlap(vector<vector<int>>& img1, vector<vector<int>>& img2) {
-        int m=0;
 
-        struct PairHash {
-    size_t operator()(const pair<int, int>& p) const {
-        return p.first ^ (p.second << 1);
-    }
-};
+      
 
-        unordered_set<pair<int,int>,PairHash>A;
-        unordered_set<pair<int,int>,PairHash>B;
+   vector<vector<int>>A;
 
         int ans=0;
         for(int i=0;i<img1.size();i++ ){
             for(int j=0;j<img1[i].size();j++){
-                if(img1[i][j]) A.insert({i,j});
-                if(img2[i][j]) B.insert({i,j});
+                if(img1[i][j]) A.push_back({i,j});
 
             }
         }
@@ -29,9 +22,11 @@ public:
                 int z=0;
 
                 for(auto &p:A){
-                    int r=p.first+x;
-                    int c=p.second+y;
-                    if(B.count({r,c})) z++;
+                    int X=p[0]+x;
+                    int Y=p[1]+y;
+                    if(0<=X&&X<r&&0<=Y&&Y<c){
+                        if(img2[X][Y]) z++;
+                    }
                 }
 
                 ans=max(ans,z);
