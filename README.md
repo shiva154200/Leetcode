@@ -43,6 +43,7 @@
 | [0223-rectangle-area](https://github.com/shiva154200/Leetcode/tree/master/0223-rectangle-area) |
 | [0836-rectangle-overlap](https://github.com/shiva154200/Leetcode/tree/master/0836-rectangle-overlap) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/shiva154200/Leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
+| [1401-circle-and-rectangle-overlapping](https://github.com/shiva154200/Leetcode/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/shiva154200/Leetcode/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/shiva154200/Leetcode/tree/master/2827-number-of-beautiful-integers-in-the-range) |
 | [3870-count-commas-in-range](https://github.com/shiva154200/Leetcode/tree/master/3870-count-commas-in-range) |
@@ -110,6 +111,7 @@
 | ------- |
 | [0223-rectangle-area](https://github.com/shiva154200/Leetcode/tree/master/0223-rectangle-area) |
 | [0836-rectangle-overlap](https://github.com/shiva154200/Leetcode/tree/master/0836-rectangle-overlap) |
+| [1401-circle-and-rectangle-overlapping](https://github.com/shiva154200/Leetcode/tree/master/1401-circle-and-rectangle-overlapping) |
 ## Sorting
 |  |
 | ------- |
