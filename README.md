@@ -55,6 +55,7 @@
 | [0940-distinct-subsequences-ii](https://github.com/shiva154200/Leetcode/tree/master/0940-distinct-subsequences-ii) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shiva154200/Leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/shiva154200/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
+| [2833-furthest-point-from-origin](https://github.com/shiva154200/Leetcode/tree/master/2833-furthest-point-from-origin) |
 ## Hash Table
 |  |
 | ------- |
@@ -142,4 +143,8 @@
 |  |
 | ------- |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/shiva154200/Leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
+## Counting
+|  |
+| ------- |
+| [2833-furthest-point-from-origin](https://github.com/shiva154200/Leetcode/tree/master/2833-furthest-point-from-origin) |
 <!---LeetCode Topics End-->
