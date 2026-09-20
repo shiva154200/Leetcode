@@ -56,6 +56,7 @@
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shiva154200/Leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/shiva154200/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2833-furthest-point-from-origin](https://github.com/shiva154200/Leetcode/tree/master/2833-furthest-point-from-origin) |
+| [3498-reverse-degree-of-a-string](https://github.com/shiva154200/Leetcode/tree/master/3498-reverse-degree-of-a-string) |
 ## Hash Table
 |  |
 | ------- |
@@ -107,6 +108,7 @@
 |  |
 | ------- |
 | [0289-game-of-life](https://github.com/shiva154200/Leetcode/tree/master/0289-game-of-life) |
+| [3498-reverse-degree-of-a-string](https://github.com/shiva154200/Leetcode/tree/master/3498-reverse-degree-of-a-string) |
 ## Geometry
 |  |
 | ------- |
