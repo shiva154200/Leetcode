@@ -1,65 +1,37 @@
 class Solution {
 public:
     int minOperations(vector<int>& nums, int x) {
-        int n=nums.size();
-       
-        int sum=0;
-       int ans=INT_MAX;
-        for(int i=n-1;i>=0;i--){
-            sum+=nums[i];
-            if(sum==x){
-                ans=(n-i);
+        int n = nums.size();
+        int total = 0;
+
+        for (int num : nums)
+            total += num;
+
+        int target = total - x;
+
+        if (target < 0)
+            return -1;
+
+        if (target == 0)
+            return n;
+
+        int left = 0;
+        int sum = 0;
+        int maxLen = -1;
+
+        for (int right = 0; right < n; right++) {
+            sum += nums[right];
+
+            while (sum > target && left <= right) {
+                sum -= nums[left];
+                left++;
             }
 
-        }
-
-        if(sum==x) return n;
-        if(sum<x) return-1;
-
- cout<<sum;
-        int maxsubarraylength=INT_MIN;
-        int subarray_sum=0;
-        int r=sum-subarray_sum;
-        int right=0;
-       
-
-        for(int i=0;i<n;i++){
-           subarray_sum+=nums[i];
-           r=sum - subarray_sum;
-        
-          if(r==x){
-            maxsubarraylength=max(maxsubarraylength,i-right+1);
-            subarray_sum-=nums[right];
-              right++;
-          }
-
-          else if(r<x) {
-            while(r<x&&right<n){
-                 subarray_sum-=nums[right];
-                 right++;
-              r=sum - subarray_sum;
-  
+            if (sum == target) {
+                maxLen = max(maxLen, right - left + 1);
             }
-            if(r==x&&right<n){
-            maxsubarraylength=max(maxsubarraylength,i-right+1);
-            subarray_sum-=nums[right];
-            right++;
-          }
-
-        
-          } 
-            
         }
-        
-        if(maxsubarraylength!=INT_MIN) ans= min(ans,(n-maxsubarraylength));
-        if (ans!=INT_MAX) return ans;
-        return -1;
 
-
-
-        
-       
-       
-     
+        return maxLen == -1 ? -1 : n - maxLen;
     }
 };
