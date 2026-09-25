@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/shiva154200/Leetcode/tree/master/0037-sudoku-solver) |
+| [0055-jump-game](https://github.com/shiva154200/Leetcode/tree/master/0055-jump-game) |
 | [0289-game-of-life](https://github.com/shiva154200/Leetcode/tree/master/0289-game-of-life) |
 | [0835-image-overlap](https://github.com/shiva154200/Leetcode/tree/master/0835-image-overlap) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/shiva154200/Leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
@@ -35,6 +36,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/shiva154200/Leetcode/tree/master/0055-jump-game) |
 | [0115-distinct-subsequences](https://github.com/shiva154200/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0940-distinct-subsequences-ii](https://github.com/shiva154200/Leetcode/tree/master/0940-distinct-subsequences-ii) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/shiva154200/Leetcode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
@@ -144,6 +146,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/shiva154200/Leetcode/tree/master/0055-jump-game) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shiva154200/Leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/shiva154200/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Combinatorics
