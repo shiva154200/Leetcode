@@ -13,6 +13,7 @@
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/shiva154200/Leetcode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/shiva154200/Leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/shiva154200/Leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
+| [1861-rotating-the-box](https://github.com/shiva154200/Leetcode/tree/master/1861-rotating-the-box) |
 | [2826-sorting-three-groups](https://github.com/shiva154200/Leetcode/tree/master/2826-sorting-three-groups) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/shiva154200/Leetcode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3483-unique-3-digit-even-numbers](https://github.com/shiva154200/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
@@ -100,6 +101,7 @@
 | [0037-sudoku-solver](https://github.com/shiva154200/Leetcode/tree/master/0037-sudoku-solver) |
 | [0289-game-of-life](https://github.com/shiva154200/Leetcode/tree/master/0289-game-of-life) |
 | [0835-image-overlap](https://github.com/shiva154200/Leetcode/tree/master/0835-image-overlap) |
+| [1861-rotating-the-box](https://github.com/shiva154200/Leetcode/tree/master/1861-rotating-the-box) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/shiva154200/Leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Algorithm X
 |  |
@@ -150,6 +152,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [1861-rotating-the-box](https://github.com/shiva154200/Leetcode/tree/master/1861-rotating-the-box) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/shiva154200/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Greedy
 |  |
