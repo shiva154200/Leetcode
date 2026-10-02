@@ -75,6 +75,7 @@
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shiva154200/Leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/shiva154200/Leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1864-minimum-number-of-swaps-to-make-the-binary-string-alternating](https://github.com/shiva154200/Leetcode/tree/master/1864-minimum-number-of-swaps-to-make-the-binary-string-alternating) |
+| [1869-longer-contiguous-segments-of-ones-than-zeros](https://github.com/shiva154200/Leetcode/tree/master/1869-longer-contiguous-segments-of-ones-than-zeros) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/shiva154200/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2833-furthest-point-from-origin](https://github.com/shiva154200/Leetcode/tree/master/2833-furthest-point-from-origin) |
 | [3498-reverse-degree-of-a-string](https://github.com/shiva154200/Leetcode/tree/master/3498-reverse-degree-of-a-string) |
