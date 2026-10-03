@@ -30,8 +30,9 @@ public:
                 int k = i + 1;
                 while (j >= 0 && k < n ) {
                     if(prefix[j] && sufix[k]){
-                         j--;
-                         k++;
+                        int d=min(prefix[j] , sufix[k]);
+                         j-=d;
+                         k+=d;
                     }
                     else if(ans.size()&&ans.back().second==j){
                         j=ans.back().first-1;
