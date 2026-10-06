@@ -1,37 +1,29 @@
+
 class Solution {
 public:
-    bool can_finish(vector<vector<int>>& tasks, int x) {
-        for (auto& v : tasks) {
-            if (x < v[1])
-                return false;
-            x -= v[0];
-        }
-        return true;
-    }
     int minimumEffort(vector<vector<int>>& tasks) {
 
         sort(tasks.begin(), tasks.end(), [](auto& a, auto& b) {
-        //     if (a[1] == b[1])
-        //         return a[0] < b[0];
-        //     return a[1] > b[1];
-        return (a[1]-a[0])>(b[1]-b[0]);
+            return (a[1] - a[0]) > (b[1] - b[0]);
         });
 
-        int high = 0;
-        for (auto& v : tasks)
-            high += v[1];
-        int low=tasks[0][1];
-        int mid;
-        while (low <= high) {
-            mid =(high + low) / 2;
+        int initialEnergy = 0;
+        int currentEnergy = 0;
 
-            bool f = can_finish(tasks, mid);
-            if (f)
-                high = mid - 1;
-            else
-                low = mid + 1;
+        for (auto& task : tasks) {
+            int actualEnergy = task[0];
+            int minimumEnergy = task[1];
+
+            if (currentEnergy < minimumEnergy) {
+                initialEnergy += minimumEnergy - currentEnergy;
+                currentEnergy = minimumEnergy;
+            }
+
+            currentEnergy -= actualEnergy;
         }
 
-        return low;
+        return initialEnergy;
     }
 };
+
+
