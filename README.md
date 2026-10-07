@@ -16,6 +16,7 @@
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/shiva154200/Leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1861-rotating-the-box](https://github.com/shiva154200/Leetcode/tree/master/1861-rotating-the-box) |
 | [2826-sorting-three-groups](https://github.com/shiva154200/Leetcode/tree/master/2826-sorting-three-groups) |
+| [3169-count-days-without-meetings](https://github.com/shiva154200/Leetcode/tree/master/3169-count-days-without-meetings) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/shiva154200/Leetcode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3483-unique-3-digit-even-numbers](https://github.com/shiva154200/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3524-find-x-value-of-array-i](https://github.com/shiva154200/Leetcode/tree/master/3524-find-x-value-of-array-i) |
@@ -158,6 +159,7 @@
 | [1096-brace-expansion-ii](https://github.com/shiva154200/Leetcode/tree/master/1096-brace-expansion-ii) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shiva154200/Leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/shiva154200/Leetcode/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
+| [3169-count-days-without-meetings](https://github.com/shiva154200/Leetcode/tree/master/3169-count-days-without-meetings) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/shiva154200/Leetcode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 ## Two Pointers
 |  |
