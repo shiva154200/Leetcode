@@ -25,6 +25,7 @@
 | [3524-find-x-value-of-array-i](https://github.com/shiva154200/Leetcode/tree/master/3524-find-x-value-of-array-i) |
 | [3525-find-x-value-of-array-ii](https://github.com/shiva154200/Leetcode/tree/master/3525-find-x-value-of-array-ii) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/shiva154200/Leetcode/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/shiva154200/Leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/shiva154200/Leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/shiva154200/Leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3904-smallest-stable-index-ii](https://github.com/shiva154200/Leetcode/tree/master/3904-smallest-stable-index-ii) |
@@ -105,6 +106,7 @@
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/shiva154200/Leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/shiva154200/Leetcode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3483-unique-3-digit-even-numbers](https://github.com/shiva154200/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/shiva154200/Leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/shiva154200/Leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Backtracking
 |  |
@@ -169,6 +171,7 @@
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/shiva154200/Leetcode/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [3169-count-days-without-meetings](https://github.com/shiva154200/Leetcode/tree/master/3169-count-days-without-meetings) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/shiva154200/Leetcode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/shiva154200/Leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/shiva154200/Leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Two Pointers
 |  |
