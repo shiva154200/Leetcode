@@ -8,6 +8,7 @@
 | [0037-sudoku-solver](https://github.com/shiva154200/Leetcode/tree/master/0037-sudoku-solver) |
 | [0055-jump-game](https://github.com/shiva154200/Leetcode/tree/master/0055-jump-game) |
 | [0289-game-of-life](https://github.com/shiva154200/Leetcode/tree/master/0289-game-of-life) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/shiva154200/Leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0835-image-overlap](https://github.com/shiva154200/Leetcode/tree/master/0835-image-overlap) |
 | [1254-number-of-closed-islands](https://github.com/shiva154200/Leetcode/tree/master/1254-number-of-closed-islands) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/shiva154200/Leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
@@ -65,6 +66,7 @@
 |  |
 | ------- |
 | [0223-rectangle-area](https://github.com/shiva154200/Leetcode/tree/master/0223-rectangle-area) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/shiva154200/Leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0836-rectangle-overlap](https://github.com/shiva154200/Leetcode/tree/master/0836-rectangle-overlap) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/shiva154200/Leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/shiva154200/Leetcode/tree/master/1401-circle-and-rectangle-overlapping) |
@@ -173,6 +175,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/shiva154200/Leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [1096-brace-expansion-ii](https://github.com/shiva154200/Leetcode/tree/master/1096-brace-expansion-ii) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shiva154200/Leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/shiva154200/Leetcode/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
