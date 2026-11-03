@@ -15,11 +15,12 @@ public:
         int n= descriptions.size();
       
         unordered_map<int, TreeNode*>mp;
-
+        unordered_set<int>childs;
         for(int i=0;i<n;i++){
             int ch=descriptions[i][1];
             int par=descriptions[i][0];
             bool lft=descriptions[i][2];
+            childs.insert(ch);
             TreeNode* p;
             TreeNode* c;
             if(mp.count(par)){
@@ -43,10 +44,8 @@ public:
 
 
         }
-        unordered_set<int>childs;
-         for(int i=0;i<n;i++){
-        childs.insert(descriptions[i][1]);
-         }
+        
+       
 
         for(const auto & [i,t]:mp){
             if(!childs.count(i)) return t;
