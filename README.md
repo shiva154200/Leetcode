@@ -68,6 +68,7 @@
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/shiva154200/Leetcode/tree/master/0002-add-two-numbers) |
 | [0223-rectangle-area](https://github.com/shiva154200/Leetcode/tree/master/0223-rectangle-area) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/shiva154200/Leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0836-rectangle-overlap](https://github.com/shiva154200/Leetcode/tree/master/0836-rectangle-overlap) |
@@ -166,6 +167,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/shiva154200/Leetcode/tree/master/0002-add-two-numbers) |
 | [3483-unique-3-digit-even-numbers](https://github.com/shiva154200/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 ## Enumeration
 |  |
@@ -272,4 +274,8 @@
 |  |
 | ------- |
 | [1254-number-of-closed-islands](https://github.com/shiva154200/Leetcode/tree/master/1254-number-of-closed-islands) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/shiva154200/Leetcode/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
