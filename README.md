@@ -201,6 +201,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/shiva154200/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0647-palindromic-substrings](https://github.com/shiva154200/Leetcode/tree/master/0647-palindromic-substrings) |
 | [1861-rotating-the-box](https://github.com/shiva154200/Leetcode/tree/master/1861-rotating-the-box) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/shiva154200/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
@@ -278,4 +279,5 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/shiva154200/Leetcode/tree/master/0002-add-two-numbers) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/shiva154200/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 <!---LeetCode Topics End-->
