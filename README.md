@@ -18,6 +18,7 @@
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/shiva154200/Leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1861-rotating-the-box](https://github.com/shiva154200/Leetcode/tree/master/1861-rotating-the-box) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/shiva154200/Leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/shiva154200/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/shiva154200/Leetcode/tree/master/2778-sum-of-squares-of-special-elements) |
 | [2826-sorting-three-groups](https://github.com/shiva154200/Leetcode/tree/master/2826-sorting-three-groups) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/shiva154200/Leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
@@ -112,6 +113,7 @@
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shiva154200/Leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/shiva154200/Leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/shiva154200/Leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/shiva154200/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/shiva154200/Leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/shiva154200/Leetcode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3483-unique-3-digit-even-numbers](https://github.com/shiva154200/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
@@ -143,6 +145,7 @@
 ## Tree
 |  |
 | ------- |
+| [2196-create-binary-tree-from-descriptions](https://github.com/shiva154200/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/shiva154200/Leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Depth-First Search
 |  |
@@ -152,6 +155,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [2196-create-binary-tree-from-descriptions](https://github.com/shiva154200/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/shiva154200/Leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Recursion
 |  |
