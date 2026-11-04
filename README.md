@@ -26,6 +26,7 @@
 | [3169-count-days-without-meetings](https://github.com/shiva154200/Leetcode/tree/master/3169-count-days-without-meetings) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/shiva154200/Leetcode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3483-unique-3-digit-even-numbers](https://github.com/shiva154200/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/shiva154200/Leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3524-find-x-value-of-array-i](https://github.com/shiva154200/Leetcode/tree/master/3524-find-x-value-of-array-i) |
 | [3525-find-x-value-of-array-ii](https://github.com/shiva154200/Leetcode/tree/master/3525-find-x-value-of-array-ii) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/shiva154200/Leetcode/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
@@ -64,6 +65,7 @@
 | [2826-sorting-three-groups](https://github.com/shiva154200/Leetcode/tree/master/2826-sorting-three-groups) |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/shiva154200/Leetcode/tree/master/2827-number-of-beautiful-integers-in-the-range) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/shiva154200/Leetcode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/shiva154200/Leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3524-find-x-value-of-array-i](https://github.com/shiva154200/Leetcode/tree/master/3524-find-x-value-of-array-i) |
 ## Math
 |  |
@@ -77,6 +79,7 @@
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/shiva154200/Leetcode/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [2409-count-days-spent-together](https://github.com/shiva154200/Leetcode/tree/master/2409-count-days-spent-together) |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/shiva154200/Leetcode/tree/master/2827-number-of-beautiful-integers-in-the-range) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/shiva154200/Leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3524-find-x-value-of-array-i](https://github.com/shiva154200/Leetcode/tree/master/3524-find-x-value-of-array-i) |
 | [3525-find-x-value-of-array-ii](https://github.com/shiva154200/Leetcode/tree/master/3525-find-x-value-of-array-ii) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/shiva154200/Leetcode/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
@@ -121,6 +124,7 @@
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/shiva154200/Leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/shiva154200/Leetcode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3483-unique-3-digit-even-numbers](https://github.com/shiva154200/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/shiva154200/Leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/shiva154200/Leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/shiva154200/Leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Backtracking
@@ -227,6 +231,7 @@
 | ------- |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/shiva154200/Leetcode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/shiva154200/Leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/shiva154200/Leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -280,4 +285,8 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/shiva154200/Leetcode/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/shiva154200/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/shiva154200/Leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 <!---LeetCode Topics End-->
