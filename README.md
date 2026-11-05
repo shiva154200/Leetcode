@@ -9,6 +9,7 @@
 | [0055-jump-game](https://github.com/shiva154200/Leetcode/tree/master/0055-jump-game) |
 | [0289-game-of-life](https://github.com/shiva154200/Leetcode/tree/master/0289-game-of-life) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/shiva154200/Leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [0485-max-consecutive-ones](https://github.com/shiva154200/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0835-image-overlap](https://github.com/shiva154200/Leetcode/tree/master/0835-image-overlap) |
 | [1254-number-of-closed-islands](https://github.com/shiva154200/Leetcode/tree/master/1254-number-of-closed-islands) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/shiva154200/Leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
