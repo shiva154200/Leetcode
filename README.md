@@ -17,6 +17,7 @@
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/shiva154200/Leetcode/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/shiva154200/Leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1861-rotating-the-box](https://github.com/shiva154200/Leetcode/tree/master/1861-rotating-the-box) |
+| [1929-concatenation-of-array](https://github.com/shiva154200/Leetcode/tree/master/1929-concatenation-of-array) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/shiva154200/Leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/shiva154200/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/shiva154200/Leetcode/tree/master/2778-sum-of-squares-of-special-elements) |
@@ -183,6 +184,7 @@
 |  |
 | ------- |
 | [0289-game-of-life](https://github.com/shiva154200/Leetcode/tree/master/0289-game-of-life) |
+| [1929-concatenation-of-array](https://github.com/shiva154200/Leetcode/tree/master/1929-concatenation-of-array) |
 | [3498-reverse-degree-of-a-string](https://github.com/shiva154200/Leetcode/tree/master/3498-reverse-degree-of-a-string) |
 ## Geometry
 |  |
