@@ -163,6 +163,7 @@
 ## Tree
 |  |
 | ------- |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/shiva154200/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0606-construct-string-from-binary-tree](https://github.com/shiva154200/Leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/shiva154200/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/shiva154200/Leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
@@ -176,6 +177,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/shiva154200/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0606-construct-string-from-binary-tree](https://github.com/shiva154200/Leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/shiva154200/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/shiva154200/Leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
@@ -303,8 +305,17 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/shiva154200/Leetcode/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/shiva154200/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/shiva154200/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/shiva154200/Leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/shiva154200/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/shiva154200/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 <!---LeetCode Topics End-->
