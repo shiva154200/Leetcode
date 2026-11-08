@@ -12,6 +12,7 @@
 | [0485-max-consecutive-ones](https://github.com/shiva154200/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0835-image-overlap](https://github.com/shiva154200/Leetcode/tree/master/0835-image-overlap) |
 | [1254-number-of-closed-islands](https://github.com/shiva154200/Leetcode/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/shiva154200/Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/shiva154200/Leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/shiva154200/Leetcode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1470-shuffle-the-array](https://github.com/shiva154200/Leetcode/tree/master/1470-shuffle-the-array) |
@@ -145,6 +146,7 @@
 | [0289-game-of-life](https://github.com/shiva154200/Leetcode/tree/master/0289-game-of-life) |
 | [0835-image-overlap](https://github.com/shiva154200/Leetcode/tree/master/0835-image-overlap) |
 | [1254-number-of-closed-islands](https://github.com/shiva154200/Leetcode/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/shiva154200/Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1861-rotating-the-box](https://github.com/shiva154200/Leetcode/tree/master/1861-rotating-the-box) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/shiva154200/Leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Algorithm X
@@ -166,6 +168,7 @@
 | ------- |
 | [0606-construct-string-from-binary-tree](https://github.com/shiva154200/Leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [1254-number-of-closed-islands](https://github.com/shiva154200/Leetcode/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/shiva154200/Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/shiva154200/Leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Binary Tree
 |  |
@@ -250,10 +253,12 @@
 | ------- |
 | [1096-brace-expansion-ii](https://github.com/shiva154200/Leetcode/tree/master/1096-brace-expansion-ii) |
 | [1254-number-of-closed-islands](https://github.com/shiva154200/Leetcode/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/shiva154200/Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/shiva154200/Leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Counting
 |  |
 | ------- |
+| [1267-count-servers-that-communicate](https://github.com/shiva154200/Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [2833-furthest-point-from-origin](https://github.com/shiva154200/Leetcode/tree/master/2833-furthest-point-from-origin) |
 ## Segment Tree
 |  |
@@ -288,6 +293,7 @@
 |  |
 | ------- |
 | [1254-number-of-closed-islands](https://github.com/shiva154200/Leetcode/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/shiva154200/Leetcode/tree/master/1267-count-servers-that-communicate) |
 ## Linked List
 |  |
 | ------- |
