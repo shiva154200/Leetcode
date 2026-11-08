@@ -22,7 +22,7 @@
 class Solution {
 public:
 
-   TreeNode* helper(vector<int>v,int l,int r){
+   TreeNode* helper(vector<int>&v,int l,int r){
        if(l>r) return NULL;
        int mid=(l+r+1)/2;
         TreeNode*t= new TreeNode(v[mid]);
@@ -44,12 +44,6 @@ public:
          }
          int n=v.size();
          return helper(v,0,n-1);
-
-         
-
-
-
-
-        
+   
     }
 };
