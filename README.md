@@ -166,6 +166,7 @@
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/shiva154200/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/shiva154200/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/shiva154200/Leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/shiva154200/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0606-construct-string-from-binary-tree](https://github.com/shiva154200/Leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/shiva154200/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/shiva154200/Leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
@@ -174,6 +175,7 @@
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/shiva154200/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/shiva154200/Leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/shiva154200/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0606-construct-string-from-binary-tree](https://github.com/shiva154200/Leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [1254-number-of-closed-islands](https://github.com/shiva154200/Leetcode/tree/master/1254-number-of-closed-islands) |
 | [1267-count-servers-that-communicate](https://github.com/shiva154200/Leetcode/tree/master/1267-count-servers-that-communicate) |
@@ -184,6 +186,7 @@
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/shiva154200/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/shiva154200/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/shiva154200/Leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/shiva154200/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0606-construct-string-from-binary-tree](https://github.com/shiva154200/Leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/shiva154200/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/shiva154200/Leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
@@ -264,6 +267,7 @@
 |  |
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/shiva154200/Leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/shiva154200/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [1096-brace-expansion-ii](https://github.com/shiva154200/Leetcode/tree/master/1096-brace-expansion-ii) |
 | [1254-number-of-closed-islands](https://github.com/shiva154200/Leetcode/tree/master/1254-number-of-closed-islands) |
 | [1267-count-servers-that-communicate](https://github.com/shiva154200/Leetcode/tree/master/1267-count-servers-that-communicate) |
@@ -316,6 +320,7 @@
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/shiva154200/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/shiva154200/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/shiva154200/Leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/shiva154200/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
