@@ -21,29 +21,37 @@
  */
 class Solution {
 public:
+    ListNode* curr;
 
-   TreeNode* helper(vector<int>&v,int l,int r){
-       if(l>r) return NULL;
-       int mid=(l+r+1)/2;
-        TreeNode*t= new TreeNode(v[mid]);
-        if(l==r) return t;
-         t->left=helper(v,l,mid-1);
-         t->right=helper(v,mid+1,r);
+    int getLength(ListNode* head) {
+        int len = 0;
+        while(head) {
+            len++;
+            head = head->next;
+        }
+        return len;
+    }
 
-         return t;
-    
-   }
+    TreeNode* helper(int l, int r) {
+        if(l > r) return NULL;
+
+        int mid = l + (r-l)/2;
+
+        TreeNode* left = helper(l, mid-1);
+
+        TreeNode* root = new TreeNode(curr->val);
+        curr = curr->next;
+
+        root->left = left;
+        root->right = helper(mid+1, r);
+
+        return root;
+    }
 
     TreeNode* sortedListToBST(ListNode* head) {
+        curr = head;
+        int n = getLength(head);
 
-        vector<int>v;
-         ListNode*temp=head;
-         while(temp){
-            v.push_back(temp->val);
-            temp=temp->next;
-         }
-         int n=v.size();
-         return helper(v,0,n-1);
-   
+        return helper(0, n-1);
     }
 };
