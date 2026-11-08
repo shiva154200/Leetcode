@@ -28,6 +28,7 @@
 | [2826-sorting-three-groups](https://github.com/shiva154200/Leetcode/tree/master/2826-sorting-three-groups) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/shiva154200/Leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/shiva154200/Leetcode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+| [2917-find-the-k-or-of-an-array](https://github.com/shiva154200/Leetcode/tree/master/2917-find-the-k-or-of-an-array) |
 | [3169-count-days-without-meetings](https://github.com/shiva154200/Leetcode/tree/master/3169-count-days-without-meetings) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/shiva154200/Leetcode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3483-unique-3-digit-even-numbers](https://github.com/shiva154200/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
@@ -249,6 +250,7 @@
 |  |
 | ------- |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/shiva154200/Leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
+| [2917-find-the-k-or-of-an-array](https://github.com/shiva154200/Leetcode/tree/master/2917-find-the-k-or-of-an-array) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/shiva154200/Leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Breadth-First Search
 |  |
