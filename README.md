@@ -120,6 +120,7 @@
 | [2833-furthest-point-from-origin](https://github.com/shiva154200/Leetcode/tree/master/2833-furthest-point-from-origin) |
 | [3498-reverse-degree-of-a-string](https://github.com/shiva154200/Leetcode/tree/master/3498-reverse-degree-of-a-string) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/shiva154200/Leetcode/tree/master/3499-maximize-active-section-with-trade-i) |
+| [3612-process-string-with-special-operations-i](https://github.com/shiva154200/Leetcode/tree/master/3612-process-string-with-special-operations-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -207,6 +208,7 @@
 | [0289-game-of-life](https://github.com/shiva154200/Leetcode/tree/master/0289-game-of-life) |
 | [1929-concatenation-of-array](https://github.com/shiva154200/Leetcode/tree/master/1929-concatenation-of-array) |
 | [3498-reverse-degree-of-a-string](https://github.com/shiva154200/Leetcode/tree/master/3498-reverse-degree-of-a-string) |
+| [3612-process-string-with-special-operations-i](https://github.com/shiva154200/Leetcode/tree/master/3612-process-string-with-special-operations-i) |
 ## Geometry
 |  |
 | ------- |
